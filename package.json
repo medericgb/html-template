@@ -1,0 +1,14 @@
+{
+  "name": "hellodearhtml",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "medericgb",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./public/output.css",
+    "watch": "npx tailwindcss -i ./css/input.css -o ./public/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
